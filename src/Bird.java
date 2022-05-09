@@ -1,7 +1,6 @@
-public class Bird {
-  // TODO fix class declaration
+public abstract class Bird {
 
-  public void eat() {
-    // TODO print a message that bird is eating
+  public static void eat(Object o) {
+    System.out.println("Bird is eating");
   }
 }
